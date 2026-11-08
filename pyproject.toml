@@ -7,7 +7,12 @@ authors = [
     { name = "MrWick2", email = "jef6032@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "rasterio>=1.5.2",
+    "scipy>=1.18.1",
+]
 
 [project.scripts]
 py525finalproject = "py525finalproject:main"
