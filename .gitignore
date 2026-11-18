@@ -180,7 +180,3 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-
-#Geographic Data ignores
-*.tif
-*.tif.aux.xml
